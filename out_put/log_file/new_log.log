@@ -1,0 +1,121 @@
+2022-08-30 23:43:58,348:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': '', 'x-project': 'azazie', 'x-countryCode': 'us'}
+2022-08-30 23:43:58,348:SY_log:send_request:handle_request.py:42:INFO:请求方法为：GET
+2022-08-30 23:43:58,349:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/product/first-screen?goods_id=1001918
+2022-08-30 23:43:58,349:SY_log:send_request:handle_request.py:44:INFO:请求数据为：None
+2022-08-30 23:44:00,109:SY_log:send_request:handle_request.py:50:INFO:响应状态码为：(200)
+2022-08-30 23:44:00,127:SY_log:test_add_cart:test_add_cart.py:18:INFO:case data 为：{'case_id': 1, 'title': '加车bridesmaids类商品', 'url': '1.0/cart/goods', 'header': '{"Content-Type": "application/json","x-app": "pc","x-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhemF6aWUiLCJhdWQiOiJ1c2VycyIsImlhdCI6MTY2MTYwNjkxNiwiZXhwIjoxNjYyMjExNzE2LCJ1c2VyX2lkIjo2MTEyMTU5fQ.wCxwTcwFjaPrswWxrMcYAaSY2IW0W2KupI6Rw940oak","x-project": "azazie","x-countryCode": "US"}', 'data': '{\n    "goods_id": "1001918",\n    "dress_type": "dress",\n    "from_showroom": "",\n    "from_whatAreU": "",\n    "recommend_flag": "",\n    "from_details_entry": "",\n    "from_instagram": "",\n    "styles": {\n        "freeStyle": False,\n        "size_type": "_inch",\n        "select": {\n            "color": "531",\n            "size": "7497"\n        }\n    },\n    "goods_number": 1\n}', 'method': 'post', 'expected': '{"code": 0, "error": "", "msg": "success"}', 'mark': 'all_bridesmaid_dresses.csv'}
+2022-08-30 23:44:00,128:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhemF6aWUiLCJhdWQiOiJ1c2VycyIsImlhdCI6MTY2MTYwNjkxNiwiZXhwIjoxNjYyMjExNzE2LCJ1c2VyX2lkIjo2MTEyMTU5fQ.wCxwTcwFjaPrswWxrMcYAaSY2IW0W2KupI6Rw940oak', 'x-project': 'azazie', 'x-countryCode': 'US'}
+2022-08-30 23:44:00,128:SY_log:send_request:handle_request.py:42:INFO:请求方法为：POST
+2022-08-30 23:44:00,128:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/cart/goods
+2022-08-30 23:44:00,128:SY_log:send_request:handle_request.py:44:INFO:请求数据为：{
+    "goods_id": "1001918",
+    "dress_type": "dress",
+    "from_showroom": "",
+    "from_whatAreU": "",
+    "recommend_flag": "",
+    "from_details_entry": "",
+    "from_instagram": "",
+    "styles": {
+        "freeStyle": False,
+        "size_type": "_inch",
+        "select": {
+            "color": "531",
+            "size": "7497"
+        }
+    },
+    "goods_number": 1
+}
+2022-08-30 23:44:01,978:SY_log:send_request:handle_request.py:56:INFO:响应状态码为：(200)
+2022-08-30 23:44:01,979:SY_log:send_request:handle_request.py:58:INFO:接口响应结果为：({'code': 0, 'error': '', 'msg': 'success', 'data': {'rec_id': 35966571}})
+2022-08-30 23:44:01,982:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': '', 'x-project': 'azazie', 'x-countryCode': 'us'}
+2022-08-30 23:44:01,982:SY_log:send_request:handle_request.py:42:INFO:请求方法为：GET
+2022-08-30 23:44:01,982:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/product/first-screen?goods_id=1006552
+2022-08-30 23:44:01,982:SY_log:send_request:handle_request.py:44:INFO:请求数据为：None
+2022-08-30 23:44:03,354:SY_log:send_request:handle_request.py:50:INFO:响应状态码为：(200)
+2022-08-30 23:44:03,356:SY_log:test_add_cart:test_add_cart.py:18:INFO:case data 为：{'case_id': 2, 'title': '加车brides类商品', 'url': '1.0/cart/goods', 'header': '{"Content-Type": "application/json","x-app": "pc","x-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhemF6aWUiLCJhdWQiOiJ1c2VycyIsImlhdCI6MTY2MTYwNjkxNiwiZXhwIjoxNjYyMjExNzE2LCJ1c2VyX2lkIjo2MTEyMTU5fQ.wCxwTcwFjaPrswWxrMcYAaSY2IW0W2KupI6Rw940oak","x-project": "azazie","x-countryCode": "US"}', 'data': '{\n    "goods_id": "1006552",\n    "dress_type": "dress",\n    "from_showroom": "",\n    "from_whatAreU": "",\n    "recommend_flag": "",\n    "from_details_entry": "",\n    "from_instagram": "",\n    "styles": {\n        "freeStyle": False,\n        "size_type": "_inch",\n        "select": {\n            "color": "11629",\n            "size": "9564"\n        }\n    },\n    "goods_number": 1\n}', 'method': 'post', 'expected': '{"code": 0, "error": "", "msg": "success"}', 'mark': 'wedding_dresses.csv'}
+2022-08-30 23:44:03,356:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhemF6aWUiLCJhdWQiOiJ1c2VycyIsImlhdCI6MTY2MTYwNjkxNiwiZXhwIjoxNjYyMjExNzE2LCJ1c2VyX2lkIjo2MTEyMTU5fQ.wCxwTcwFjaPrswWxrMcYAaSY2IW0W2KupI6Rw940oak', 'x-project': 'azazie', 'x-countryCode': 'US'}
+2022-08-30 23:44:03,356:SY_log:send_request:handle_request.py:42:INFO:请求方法为：POST
+2022-08-30 23:44:03,357:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/cart/goods
+2022-08-30 23:44:03,357:SY_log:send_request:handle_request.py:44:INFO:请求数据为：{
+    "goods_id": "1006552",
+    "dress_type": "dress",
+    "from_showroom": "",
+    "from_whatAreU": "",
+    "recommend_flag": "",
+    "from_details_entry": "",
+    "from_instagram": "",
+    "styles": {
+        "freeStyle": False,
+        "size_type": "_inch",
+        "select": {
+            "color": "11629",
+            "size": "9564"
+        }
+    },
+    "goods_number": 1
+}
+2022-08-30 23:44:05,160:SY_log:send_request:handle_request.py:56:INFO:响应状态码为：(200)
+2022-08-30 23:44:05,160:SY_log:send_request:handle_request.py:58:INFO:接口响应结果为：({'code': 0, 'error': '', 'msg': 'success', 'data': {'rec_id': 35966573}})
+2022-08-30 23:44:05,164:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': '', 'x-project': 'azazie', 'x-countryCode': 'us'}
+2022-08-30 23:44:05,164:SY_log:send_request:handle_request.py:42:INFO:请求方法为：GET
+2022-08-30 23:44:05,164:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/product/first-screen?goods_id=1002986
+2022-08-30 23:44:05,164:SY_log:send_request:handle_request.py:44:INFO:请求数据为：None
+2022-08-30 23:44:06,466:SY_log:send_request:handle_request.py:50:INFO:响应状态码为：(200)
+2022-08-30 23:44:06,470:SY_log:test_add_cart:test_add_cart.py:18:INFO:case data 为：{'case_id': 3, 'title': '加车moms&celebrations类商品', 'url': '1.0/cart/goods', 'header': '{"Content-Type": "application/json","x-app": "pc","x-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhemF6aWUiLCJhdWQiOiJ1c2VycyIsImlhdCI6MTY2MTYwNjkxNiwiZXhwIjoxNjYyMjExNzE2LCJ1c2VyX2lkIjo2MTEyMTU5fQ.wCxwTcwFjaPrswWxrMcYAaSY2IW0W2KupI6Rw940oak","x-project": "azazie","x-countryCode": "US"}', 'data': '{\n    "goods_id": "1002986",\n    "dress_type": "dress",\n    "from_showroom": "",\n    "from_whatAreU": "",\n    "recommend_flag": "",\n    "from_details_entry": "",\n    "from_instagram": "",\n    "styles": {\n        "freeStyle": False,\n        "size_type": "_inch",\n        "select": {\n            "color": "5713",\n            "size": "7532"\n        }\n    },\n    "goods_number": 1\n}', 'method': 'post', 'expected': '{"code": 0, "error": "", "msg": "success"}', 'mark': 'all_mom_and_celebration_dresses.csv'}
+2022-08-30 23:44:06,471:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhemF6aWUiLCJhdWQiOiJ1c2VycyIsImlhdCI6MTY2MTYwNjkxNiwiZXhwIjoxNjYyMjExNzE2LCJ1c2VyX2lkIjo2MTEyMTU5fQ.wCxwTcwFjaPrswWxrMcYAaSY2IW0W2KupI6Rw940oak', 'x-project': 'azazie', 'x-countryCode': 'US'}
+2022-08-30 23:44:06,471:SY_log:send_request:handle_request.py:42:INFO:请求方法为：POST
+2022-08-30 23:44:06,471:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/cart/goods
+2022-08-30 23:44:06,471:SY_log:send_request:handle_request.py:44:INFO:请求数据为：{
+    "goods_id": "1002986",
+    "dress_type": "dress",
+    "from_showroom": "",
+    "from_whatAreU": "",
+    "recommend_flag": "",
+    "from_details_entry": "",
+    "from_instagram": "",
+    "styles": {
+        "freeStyle": False,
+        "size_type": "_inch",
+        "select": {
+            "color": "5713",
+            "size": "7532"
+        }
+    },
+    "goods_number": 1
+}
+2022-08-30 23:44:08,460:SY_log:send_request:handle_request.py:56:INFO:响应状态码为：(200)
+2022-08-30 23:44:08,460:SY_log:send_request:handle_request.py:58:INFO:接口响应结果为：({'code': 0, 'error': '', 'msg': 'success', 'data': {'rec_id': 35966574}})
+2022-08-30 23:44:08,463:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': '', 'x-project': 'azazie', 'x-countryCode': 'us'}
+2022-08-30 23:44:08,463:SY_log:send_request:handle_request.py:42:INFO:请求方法为：GET
+2022-08-30 23:44:08,463:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/product/first-screen?goods_id=1003881
+2022-08-30 23:44:08,463:SY_log:send_request:handle_request.py:44:INFO:请求数据为：None
+2022-08-30 23:44:09,510:SY_log:send_request:handle_request.py:50:INFO:响应状态码为：(200)
+2022-08-30 23:44:09,511:SY_log:test_add_cart:test_add_cart.py:18:INFO:case data 为：{'case_id': 4, 'title': '加车dresses类商品', 'url': '1.0/cart/goods', 'header': '{"Content-Type": "application/json","x-app": "pc","x-token": "${token}","x-project": "azazie","x-countryCode": "US"}', 'data': '{\n    "goods_id": "1003881",\n    "dress_type": "dress",\n    "from_showroom": "",\n    "from_whatAreU": "",\n    "recommend_flag": "",\n    "from_details_entry": "",\n    "from_instagram": "",\n    "styles": {\n        "freeStyle": False,\n        "size_type": "_inch",\n        "select": {\n            "color": "182548",\n            "size": "12167"\n        }\n    },\n    "goods_number": 1\n}', 'method': 'post', 'expected': '{"code": 0, "error": "", "msg": "success"}', 'mark': 'dresses.csv'}
+2022-08-30 23:44:09,512:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': '${token}', 'x-project': 'azazie', 'x-countryCode': 'US'}
+2022-08-30 23:44:09,512:SY_log:send_request:handle_request.py:42:INFO:请求方法为：POST
+2022-08-30 23:44:09,512:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/cart/goods
+2022-08-30 23:44:09,512:SY_log:send_request:handle_request.py:44:INFO:请求数据为：{
+    "goods_id": "1003881",
+    "dress_type": "dress",
+    "from_showroom": "",
+    "from_whatAreU": "",
+    "recommend_flag": "",
+    "from_details_entry": "",
+    "from_instagram": "",
+    "styles": {
+        "freeStyle": False,
+        "size_type": "_inch",
+        "select": {
+            "color": "182548",
+            "size": "12167"
+        }
+    },
+    "goods_number": 1
+}
+2022-08-30 23:44:10,296:SY_log:send_request:handle_request.py:56:INFO:响应状态码为：(200)
+2022-08-30 23:44:10,296:SY_log:send_request:handle_request.py:58:INFO:接口响应结果为：({'code': 0, 'error': '', 'msg': 'success', 'data': {'rec_id': 35966577}})
+2022-08-30 23:44:10,364:SY_log:send_request:handle_request.py:41:INFO:请求头为：{'Content-Type': 'application/json', 'x-app': 'pc', 'x-token': '', 'x-project': 'azazie', 'x-countryCode': 'us'}
+2022-08-30 23:44:10,364:SY_log:send_request:handle_request.py:42:INFO:请求方法为：GET
+2022-08-30 23:44:10,365:SY_log:send_request:handle_request.py:43:INFO:请求url为：https://apix-p3.azazie.com/1.0/product/first-screen?goods_id=1054337
+2022-08-30 23:44:10,365:SY_log:send_request:handle_request.py:44:INFO:请求数据为：None
+2022-08-30 23:44:11,133:SY_log:send_request:handle_request.py:50:INFO:响应状态码为：(200)

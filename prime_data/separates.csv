@@ -1,0 +1,7 @@
+goods_id,goods_name,cat_id,shop_price,shop_price,no_deal_price,dress_type,price_symbol,goods_sn,market_price
+1000900,Azazie Sylvie,139,29,29,29,dress,$,SN1423633991071,120.00
+1000890,Azazie Katerina,139,29,29,29,dress,$,SN1423474285580,120.00
+1000902,Azazie Odette,139,35,35,35,dress,$,SN1423635936470,150.00
+1000903,Azazie Margot,139,39,39,39,dress,$,SN1423708064249,200.00
+1050839,Azazie Senela,139,49,49,49,dress,$,SN1617083415734,1.00
+1050837,Azazie Renatus,139,49,49,49,dress,$,SN1617083415734,1.00
